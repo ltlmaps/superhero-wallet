@@ -126,6 +126,7 @@ export default {
           payload: { address: this.account.publicKey, network: this.current.network },
         });
       }
+
       this.pollData();
     },
     pollData() {
